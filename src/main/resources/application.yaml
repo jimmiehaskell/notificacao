@@ -20,13 +20,9 @@ spring:
           connectiontimeout: 5000
           timeout: 3000
           writetimeout: 5000
-  thymeleaf:
-    enable: true
-
 envio:
   email:
     remetente: 'email-remetente'
     nomeRemetente: 'nome-remetente'
-
 server:
   port: 8082
